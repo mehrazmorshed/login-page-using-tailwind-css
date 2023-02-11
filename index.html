@@ -1,7 +1,27 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-  <head>
-  </head>
-  <body>
-  </body>
+<head>
+	<title>CV3</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+	<main class="flex items-center justify-center h-screen bg-gray-100">
+		<form>
+			<div class="bg-gray-300 w-60 p-6 rounded shadow-sm">
+				<div class="flex items-center justify-center mb-4">
+					<img src="logo.png" alt="Logo" class="h-24">
+				</div>
+				<label class="text-gray-700">Email</label>
+				<input class="w-full py-2 bg-gray-50 text-gray-500 px-1 outline-none mb-4" type="email" name="">
+				<label class="text-gray-700">Password</label>
+				<input class="w-full py-2 bg-gray-50 text-gray-500 px-1 outline-none mb-4" type="password" name="">
+				<input id="remember" class="mb-6" type="checkbox" name="">
+				<label for="remember" class="text-gray-700">Remember Me</label>
+				<button type="submit" class="bg-blue-500 w-full text-gray-100 py-2 rounded hover:bg-blue-600 transition-colors">Login</button>
+			</div>
+		</form>
+	</main>
+</body>
 </html>
